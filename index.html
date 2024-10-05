@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style/indexstyle.css" />
+    <script src="scripts/indexjs.js"></script>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        background-color: black;
+        color: white;
+      }
+      .attribution a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .attribution a:hover {
+        color: #ff527b;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <section class="container">
+          <div class="left-container">
+            <div class="head">
+              <h1>Stay updated!</h1>
+              <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            </div>
+            <div class="details">
+              <ul>
+                <li>Product discovery and building what matters</li
+                ><br />
+                <li>Measuring to ensure updates are a success</li
+                ><br />
+                <li>And much more!</li
+                ><br />
+              </ul>
+            </div>
+
+            <div class="form">
+              <label class="label" for="email">Email address</label>
+              <input class="input" type="email" placeholder="email@company.com" name="email" id="email" required/>
+              <button onclick="subscribe()">Subscribe to monthly newsletter</button>
+            </div>
+          </div>
+          <div class="right-container">
+            <!-- image goes here -->
+          </div>
+        </section>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/DiogoGaspar6" target="_blank">Diogo Gaspar</a>.
+    </div>
+  </body>
+</html>
