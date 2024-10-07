@@ -39,7 +39,7 @@ body {
 .right-container {
   margin: 10px;
   flex: 1;
-  background: url('/assets/images/illustration-sign-up-desktop.svg') no-repeat center center;
+  background: url('../assets/images/illustration-sign-up-desktop.svg') no-repeat center center;
   background-size: cover;
   border-radius: 10px;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .details li::before {
-  content: url(/assets/images/icon-list.svg);
+  content: url('../assets/images/icon-list.svg');
   position: absolute;
   left: 0;
   top: 0;
